@@ -4,7 +4,7 @@ from github import Github
 import json
 
 #Taken from docs to set up an instance of Github
-g = Github("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")
+g = Github()
 
 user = g.get_user("drewwiesen155")
 repos = user.get_repos()
